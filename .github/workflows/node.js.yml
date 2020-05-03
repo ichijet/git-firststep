@@ -8,7 +8,6 @@ schedule:
   #push:
    # branches: [ master ]
     # プッシュ時に動作する
-
 jobs:
   build:
 
