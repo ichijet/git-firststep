@@ -1,10 +1,14 @@
 name: LINE notify
 
 on:
-  push:
-    branches: [ master ]
+  schedule:
+  - cron:  '*/5 * * * *'
+  # 5分ごと # ここだけ変更
+
+  #push:
+   # branches: [ master ]
     # プッシュ時に動作する
-    
+
 jobs:
   build:
 
